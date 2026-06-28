@@ -36,9 +36,7 @@ Auctionator::Auctionator()
 };
 
 Auctionator::~Auctionator()
-{
-    delete session;
-}
+{}
 
 void Auctionator::CreateAuction(AuctionatorItem newItem)
 {
